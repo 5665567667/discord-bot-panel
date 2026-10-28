@@ -1,0 +1,16 @@
+.env
+/target
+/frontend/node_modules
+/frontend/dist/assets
+/frontend/dist/*.js
+/frontend/dist/*.css
+/desktop/target
+/desktop/binaries/*.exe
+/data/*.db
+/data/*.db-shm
+/data/*.db-wal
+/logs/*
+/backups/*
+!logs/.gitkeep
+!data/.gitkeep
+!backups/.gitkeep
